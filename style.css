@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-bahavior: smooth;
+}
+
+h2 {
+  font-style: italic;
+  font-size: 30px;
+  font-weight: 500; /*Насыщенность шрифта, возможные значения 100 200 300 ...900*/
+  color: #a284ff;
+}
+
+body {
+  background: #392828; /*Тёмно стний*/
+  color: #7e54ff;
+
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap; /**/
+  justify-content: space-between;
+  padding: 0 300px;
+  font-size: 25px;
+  color: #7e54ff;
+  border-bottom: 3px solid #1e90ff;
+  background: #042335; /*Тёмно стний*/
+}
+
+nav {
+  display: flex;
+  margin: 0 20%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 20px;/*Внешний отступ*/
+}
+
+nav li a {
+  display: flex; /*Преобразуем строчный(инлайновый) элемент в блочный*/
+  padding: 20px;
+  font-weight: bold;
+  border: 1px solid #d1d1d1;
+
+}
+
+section {
+  color: #7e54ff;
+  border-bottom: 3px solid #1e90ff;
+
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fbc70d;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #042335; /*Тёмно стний*/
+  color: #7e54ff;
+}
+
+.footer_rs {
+  display: flex;
+  width: 121px;
+  height: 45px;
+  background-image: url("img/rs.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
